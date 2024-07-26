@@ -1,0 +1,463 @@
+"entity_graph"
+"""<graphml xmlns=http://graphml.graphdrawing.org/xmlns xmlns:xsi=http://www.w3.org/2001/XMLSchema-instance xsi:schemaLocation=http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd>
+  <key id=d5 for=edge attr.name=source_id attr.type=string />
+  <key id=d4 for=edge attr.name=description attr.type=string />
+  <key id=d3 for=edge attr.name=weight attr.type=double />
+  <key id=d2 for=node attr.name=source_id attr.type=string />
+  <key id=d1 for=node attr.name=description attr.type=string />
+  <key id=d0 for=node attr.name=type attr.type=string />
+  <graph edgedefault=undirected>
+    <node id=&quot;TECH INNOVATIONS PVT. LTD&quot;>
+      <data key=d0>ORGANIZATION</data>
+      <data key=d1>Tech Innovations Pvt. Ltd is a software development company based in India, acting as the Contractor in this agreement.</data>
+      <data key=d2>af02da68051b407a774989332a162982</data>
+    </node>
+    <node id=&quot;TECH PARK AVENUE, INC.&quot;>
+      <data key=d0>ORGANIZATION</data>
+      <data key=d1>Tech Park Avenue, Inc. is a company based in the USA, acting as the Company in this agreement.
+Tech Park Avenue, Inc. is another company involved in the Services mentioned in the document.</data>
+      <data key=d2>54075507af865d4dc5931205fab5765f,af02da68051b407a774989332a162982</data>
+    </node>
+    <node id=&quot;INDIA&quot;>
+      <data key=d0>GEO</data>
+      <data key=d1>India is the country where Tech Innovations Pvt. Ltd is located.</data>
+      <data key=d2>af02da68051b407a774989332a162982</data>
+    </node>
+    <node id=&quot;USA&quot;>
+      <data key=d0>GEO</data>
+      <data key=d1>USA is the country where Tech Park Avenue, Inc. is located.</data>
+      <data key=d2>af02da68051b407a774989332a162982</data>
+    </node>
+    <node id=&quot;SERVICES AGREEMENT&quot;>
+      <data key=d0>EVENT</data>
+      <data key=d1>The Services Agreement is a formal contract made on 28 Nov 2023 between Tech Innovations Pvt. Ltd and Tech Park Avenue, Inc. for software development services.</data>
+      <data key=d2>af02da68051b407a774989332a162982</data>
+    </node>
+    <node id=&quot;CONTRACTOR&quot;>
+      <data key=d0>ORGANIZATION</data>
+      <data key=d1>Contractor is an organization responsible for performing services and delivering deliverables as described in any Statement of Work. They are also responsible for managing any sub-contractors.
+Contractor is the entity responsible for performing services and may engage sub-contractors and individual consultants or contractors.
+Contractor is an individual or entity responsible for observing security and safety policies, performing services, and correcting defects in deliverables.
+Contractor is the entity responsible for correcting defects in the Deliverables, resubmitting them for acceptance testing, and invoicing Company for accepted Deliverables.
+Contractor is the entity providing services and deliverables to the Company, including its personnel and sub-contractors.
+Contractor is the individual or entity that develops the Newly Developed IP and assigns all rights, title, and interest in it to the Company.
+Contractor is an individual or entity responsible for executing and filing documents, and obtaining necessary consents and authorizations for the Company.
+Contractor is responsible for obtaining ratifications, consents, and authorizations from its personnel for the Company's benefit. It must also seek the Company's prior written consent before incorporating third-party or its own IP into Deliverables.
+Contractor is an entity that provides services and deliverables to the Company, retaining its intellectual property rights even after assignment of newly developed IP.
+Contractor is the entity providing services and deliverables to the Company, bound by various warranties and covenants.
+Contractor is an organization responsible for fulfilling obligations under an agreement with the Company, including ensuring compliance by its employees and sub-contractors.
+Contractor is an individual or entity responsible for providing Front End services under the terms of the Agreement.
+The Contractor is responsible for providing Front End services exclusively under the terms of the Agreement. They are not granted access to the Back End code or AI/ML code and must use Company-provided API endpoints for integration purposes.
+The Contractor is a party involved in the agreement, responsible for providing services and maintaining confidentiality.
+Contractor is a party involved in the agreement, providing services to the Company and holding Confidential Information.
+Contractor is an individual or entity providing services to the Company under the terms of the agreement, responsible for delivering services and managing confidential information.
+Contractor is an independent entity responsible for performing services under the general direction of the Company, determining the manner and means by which the services are accomplished.
+Contractor is an independent contractor responsible for performing services under the general direction of the Company, with discretion over the manner and means of accomplishing the services.
+Contractor is an individual or entity that is a party to the Agreement and whose consent is required for certain assignments of the Agreement by the Company.
+Contractor is the individual or entity providing services under the agreement, having access to the Company's Confidential Information.
+Contractor is an individual or entity providing services under the agreement, having access to Confidential Information and responsible for acknowledging receipt of notices.</data>
+      <data key=d2>074d8bc13c7cff5ee897c3eca3e30693,09038f7353e18c002372101e4a4141be,0eb3593149c31596ddef2c535e782a58,39e32d155411e5a89ff5707ee1b03c9c,3c8b240edf207b97a5df6c92e4afd43a,4c9b33d2d1fe99bd63cd8f99c679281d,520f82c4733c1da4b602815fc08dc110,5535b05bf384b9ecfba910725e6518e4,6134ff8fdc6cf9ea36d456819fb81850,8b2c4dc1f5b8fa2f52a6b505f77bb4ff,a05f1c3b26d22d47e76e16edefe118fc,bfe652d20977453f943d863e7fac1edc,c642e51ecac0ee0338a50b22719b5345,c80544c339c19ece8e5afc2200e98300,ce810a02fd6124b31ca2183c6b7bd4b6,cecfda346bdac8e9232a912d20fd8b94,d3be9092a42bc9d927636522ec06973f,e7a17066064b2a2003f09ecc3c269f9e,e95a03d09a97893949ed1a0052424641,ec920851838d4a61251a9f4a23de71a6,f74af18f0023e1c5abc424734f082003</data>
+    </node>
+    <node id=&quot;COMPANY&quot;>
+      <data key=d0>ORGANIZATION</data>
+      <data key=d1>Company is an organization that enters into agreements with the Contractor for services and has the authority to approve or disapprove sub-contractors.
+Company is the entity that requires prior written consent for subcontracting services and can disapprove a sub-contractor at its reasonable discretion.
+Company is an organization that oversees the security and safety policies, requests changes in specifications, and conducts acceptance testing for deliverables.
+Company is the entity that agrees to pay Contractor for the Services and has the right to terminate the Statement of Work if deliverables are not accepted.
+Company is the entity that owns the intellectual property and is responsible for making payments to the Contractor under the agreement.
+Company is the entity to which all rights, title, and interest in the Newly Developed IP are assigned by the Contractor.
+Company is an organization designated as the agent and attorney-in-fact for the Contractor, with the authority to execute and file documents and perform other acts on behalf of the Contractor.
+Company is the entity requesting ratifications, consents, and authorizations from the Contractor and its personnel. It also requires prior written consent for the use of third-party and Contractor IP in Deliverables.
+Company is the entity receiving services and deliverables from the Contractor, granted a perpetual, irrevocable, worldwide, royalty-free, non-exclusive, sublicensable license to use Contractor's IP.
+Company is the entity receiving the assignment of Newly Developed IP and is involved in the agreement with the Contractor.
+Company is an organization that has entered into an agreement with the Contractor, requiring the Contractor to comply with specific terms and conditions.
+Company is the organization that has entered into an Agreement with the Contractor, providing materials and API endpoints for integration purposes.
+The Company provides API endpoints for integration purposes and is responsible for the backend implementation. They are also a party to the Agreement with the Contractor.
+The Company is a party involved in the agreement, responsible for paying fees and maintaining confidentiality.
+Company is a party involved in the agreement, responsible for paying fees to the Contractor and holding Confidential Information.
+Company is an organization involved in an agreement with another party, responsible for making payments for services rendered and managing confidential information.
+Company is the entity that engages the Contractor to perform services, providing general direction and receiving deliverables upon termination of the agreement.
+Company is the entity that has engaged the Contractor to perform services, providing general direction but not controlling the manner and means of service execution.
+Company is a corporate entity that is a party to the Agreement and has the ability to assign the Agreement to a corporate affiliate or successor.
+Company is one of the parties involved in the agreement, responsible for receiving notices and having access to the Contractor's Confidential Information.
+Company is an entity involved in the agreement, responsible for receiving notices and having access to Confidential Information.</data>
+      <data key=d2>074d8bc13c7cff5ee897c3eca3e30693,09038f7353e18c002372101e4a4141be,0eb3593149c31596ddef2c535e782a58,39e32d155411e5a89ff5707ee1b03c9c,3c8b240edf207b97a5df6c92e4afd43a,4c9b33d2d1fe99bd63cd8f99c679281d,520f82c4733c1da4b602815fc08dc110,5535b05bf384b9ecfba910725e6518e4,6134ff8fdc6cf9ea36d456819fb81850,8b2c4dc1f5b8fa2f52a6b505f77bb4ff,a05f1c3b26d22d47e76e16edefe118fc,bfe652d20977453f943d863e7fac1edc,c642e51ecac0ee0338a50b22719b5345,c80544c339c19ece8e5afc2200e98300,ce810a02fd6124b31ca2183c6b7bd4b6,cecfda346bdac8e9232a912d20fd8b94,d3be9092a42bc9d927636522ec06973f,e7a17066064b2a2003f09ecc3c269f9e,e95a03d09a97893949ed1a0052424641,ec920851838d4a61251a9f4a23de71a6,f74af18f0023e1c5abc424734f082003</data>
+    </node>
+    <node id=&quot;STATEMENT OF WORK&quot;>
+      <data key=d0>EVENT</data>
+      <data key=d1>Statement of Work is a document that references the agreement, is signed by authorized representatives of both parties, and sets forth the services to be performed and the fees for such services.
+Statement of Work is a document that outlines the specific services and deliverables that Contractor must provide to Company.
+Statement of Work is a document outlining the specific services to be provided by the Contractor to the Company, which can be terminated by the Company with prior notice.
+Statement of Work is a document under the Agreement specifying the details of the services to be provided by the Contractor to the Company.
+Statement of Work is a document that may contain terms that could potentially supersede those in the Agreement if specifically identified.</data>
+      <data key=d2>4c9b33d2d1fe99bd63cd8f99c679281d,bfe652d20977453f943d863e7fac1edc,cecfda346bdac8e9232a912d20fd8b94,ec920851838d4a61251a9f4a23de71a6,f74af18f0023e1c5abc424734f082003</data>
+    </node>
+    <node id=&quot;SERVICES&quot;>
+      <data key=d0>EVENT</data>
+      <data key=d1>Services refer to any service described in any Statement of Work that the Contractor agrees to perform and complete according to the schedule set forth.</data>
+      <data key=d2>cecfda346bdac8e9232a912d20fd8b94</data>
+    </node>
+    <node id=&quot;SUB-CONTRACTORS&quot;>
+      <data key=d0>ORGANIZATION</data>
+      <data key=d1>Sub-contractors are external organizations to which the Contractor subcontracts services, requiring prior written consent from the Company.
+Sub-contractors are individuals or entities working under the Contractor, also bound by internal agreements to comply with the terms of the Contractor's agreement with the Company.</data>
+      <data key=d2>c642e51ecac0ee0338a50b22719b5345,e7a17066064b2a2003f09ecc3c269f9e</data>
+    </node>
+    <node id=&quot;CONSULTANTS OR CONTRACTORS&quot;>
+      <data key=d0>PERSON</data>
+      <data key=d1>Consultants or Contractors are individuals engaged by the Contractor for tax purposes, who do not require prior consent from the Company.</data>
+      <data key=d2>e7a17066064b2a2003f09ecc3c269f9e</data>
+    </node>
+    <node id=&quot;CONSULTANT&quot;>
+      <data key=d0>PERSON</data>
+      <data key=d1>Consultant is an individual or entity mentioned as a potential role similar to Contractor, likely involved in providing specialized services.</data>
+      <data key=d2>074d8bc13c7cff5ee897c3eca3e30693</data>
+    </node>
+    <node id=&quot;DELIVERABLES&quot;>
+      <data key=d0>EVENT</data>
+      <data key=d1>Deliverables refer to the work products that Contractor must correct and resubmit for acceptance testing by Company.</data>
+      <data key=d2>f74af18f0023e1c5abc424734f082003</data>
+    </node>
+    <node id=&quot;INTELLECTUAL PROPERTY&quot;>
+      <data key=d0>EVENT</data>
+      <data key=d1>Intellectual Property refers to the creations of the mind, such as inventions, that are developed by the Contractor and owned by the Company under the agreement.</data>
+      <data key=d2>d3be9092a42bc9d927636522ec06973f</data>
+    </node>
+    <node id=&quot;NEWLY DEVELOPED IP&quot;>
+      <data key=d0>EVENT</data>
+      <data key=d1>Newly Developed IP refers to any intellectual property made, conceived, or reduced to practice by the Contractor during the term of the agreement that relates to the services, deliverables, or confidential information.
+Newly Developed IP refers to the intellectual property that is developed by the Contractor and assigned to the Company.
+Newly Developed IP refers to the intellectual property created by the Contractor or other creators, which the Company has the right to execute and file documents for.</data>
+      <data key=d2>5535b05bf384b9ecfba910725e6518e4,ce810a02fd6124b31ca2183c6b7bd4b6,d3be9092a42bc9d927636522ec06973f</data>
+    </node>
+    <node id=&quot;APPROVED THIRD PARTY IP&quot;>
+      <data key=d0>EVENT</data>
+      <data key=d1>Approved Third Party IP refers to the intellectual property of a third party that can be incorporated into Deliverables with the Company's prior written consent.
+Approved Third Party IP refers to any third-party Intellectual Property that the Contractor is allowed to incorporate into Deliverables with the Company's prior written consent.</data>
+      <data key=d2>a05f1c3b26d22d47e76e16edefe118fc,ce810a02fd6124b31ca2183c6b7bd4b6</data>
+    </node>
+    <node id=&quot;CONTRACTOR IP&quot;>
+      <data key=d0>EVENT</data>
+      <data key=d1>Contractor IP refers to Intellectual Property owned by or licensed to the Contractor that is not assigned under the agreement and requires the Company's prior written consent for use in Deliverables.</data>
+      <data key=d2>a05f1c3b26d22d47e76e16edefe118fc</data>
+    </node>
+    <node id=&quot;BANKRUPTCY CODE&quot;>
+      <data key=d0>GEO</data>
+      <data key=d1>The Bankruptcy Code is a legal framework that defines rights to 'intellectual property' for purposes of Section 365(n).
+The Bankruptcy Code is referenced in relation to the license of rights to intellectual property, indicating its legal significance in the agreement.</data>
+      <data key=d2>0eb3593149c31596ddef2c535e782a58,8b2c4dc1f5b8fa2f52a6b505f77bb4ff</data>
+    </node>
+    <node id=&quot;CONTRACTOR'S EMPLOYEES&quot;>
+      <data key=d0>PERSON</data>
+      <data key=d1>Contractor's employees are individuals bound by internal agreements to comply with the terms of the Contractor's agreement with the Company.</data>
+      <data key=d2>c642e51ecac0ee0338a50b22719b5345</data>
+    </node>
+    <node id=&quot;CONTRACTOR'S AFFILIATES&quot;>
+      <data key=d0>ORGANIZATION</data>
+      <data key=d1>Contractor's affiliates are organizations associated with the Contractor, protected under indemnification clauses in the agreement with the Company.</data>
+      <data key=d2>c642e51ecac0ee0338a50b22719b5345</data>
+    </node>
+    <node id=&quot;COMPANY'S AFFILIATES&quot;>
+      <data key=d0>ORGANIZATION</data>
+      <data key=d1>Company's affiliates are organizations associated with the Company, protected under indemnification clauses in the agreement with the Contractor.</data>
+      <data key=d2>c642e51ecac0ee0338a50b22719b5345</data>
+    </node>
+    <node id=&quot;AGREEMENT&quot;>
+      <data key=d0>EVENT</data>
+      <data key=d1>Agreement is a binding and enforceable contract between the Company and the Contractor, outlining their respective responsibilities and warranties.
+The Agreement is a formal contract between the Contractor and the Company outlining the terms and conditions under which services are rendered and can be terminated.
+Agreement is the primary document outlining the terms and conditions between the Company and the Contractor.</data>
+      <data key=d2>3c8b240edf207b97a5df6c92e4afd43a,4c9b33d2d1fe99bd63cd8f99c679281d,bfe652d20977453f943d863e7fac1edc</data>
+    </node>
+    <node id=&quot;FRONT END SERVICES&quot;>
+      <data key=d0>EVENT</data>
+      <data key=d1>Front End services refer to the specific responsibilities of the Contractor, which are confined to the user interface and client-side development.</data>
+      <data key=d2>3c8b240edf207b97a5df6c92e4afd43a</data>
+    </node>
+    <node id=&quot;BACK END CODE&quot;>
+      <data key=d0>EVENT</data>
+      <data key=d1>Back End code refers to the server-side code that the Contractor will not have access to, as per the Agreement.</data>
+      <data key=d2>3c8b240edf207b97a5df6c92e4afd43a</data>
+    </node>
+    <node id=&quot;API ENDPOINTS&quot;>
+      <data key=d0>EVENT</data>
+      <data key=d1>API endpoints are specific integration points provided by the Company for the Contractor to use in their Front End services.</data>
+      <data key=d2>3c8b240edf207b97a5df6c92e4afd43a</data>
+    </node>
+    <node id=&quot;SECTION 7&quot;>
+      <data key=d0>EVENT</data>
+      <data key=d1>Section 7 is a specific part of the Agreement that, if breached, can lead to liability for gross negligence, willful misconduct, or intentional breaches.
+Section 7 refers to a specific part of the agreement that deals with confidentiality and the handling of confidential information.</data>
+      <data key=d2>6134ff8fdc6cf9ea36d456819fb81850,c80544c339c19ece8e5afc2200e98300</data>
+    </node>
+    <node id=&quot;CONFIDENTIAL INFORMATION&quot;>
+      <data key=d0>EVENT</data>
+      <data key=d1>Confidential Information refers to sensitive proprietary information that must be protected by both parties using a reasonable degree of care.</data>
+      <data key=d2>ec920851838d4a61251a9f4a23de71a6</data>
+    </node>
+    <node id=&quot;STATE OF CALIFORNIA&quot;>
+      <data key=d0>GEO</data>
+      <data key=d1>State of California is the jurisdiction whose laws govern the Agreement, excluding its choice of law rules.</data>
+      <data key=d2>09038f7353e18c002372101e4a4141be</data>
+    </node>
+    <node id=&quot;LEGAL&quot;>
+      <data key=d0>PERSON</data>
+      <data key=d1>Legal is the department or individual within the Company to whom notices must be sent.
+Legal is the department or individual within the Company to whom notices must be sent.</data>
+      <data key=d2>39e32d155411e5a89ff5707ee1b03c9c,bfe652d20977453f943d863e7fac1edc</data>
+    </node>
+    <node id=&quot;DEFEND TRADE SECRETS ACT OF 2016&quot;>
+      <data key=d0>EVENT</data>
+      <data key=d1>Defend Trade Secrets Act of 2016 is a legal framework mentioned in the agreement, providing protections and guidelines for the disclosure of trade secrets.</data>
+      <data key=d2>39e32d155411e5a89ff5707ee1b03c9c</data>
+    </node>
+    <node id=&quot;TECH INNOVATIONS PVT. LTD.&quot;>
+      <data key=d0>ORGANIZATION</data>
+      <data key=d1>Tech Innovations Pvt. Ltd. is a company involved in the Services mentioned in the document.</data>
+      <data key=d2>54075507af865d4dc5931205fab5765f</data>
+    </node>
+    <node id=&quot;PARK AVENUE, INC.&quot;>
+      <data key=d0>ORGANIZATION</data>
+      <data key=d1>Park Avenue, Inc. is a company, likely involved in business activities, given its designation as 'Inc.'</data>
+      <data key=d2>9d973bac3fd7131fba04793ac332348e</data>
+    </node>
+    <edge source=&quot;TECH INNOVATIONS PVT. LTD&quot; target=&quot;TECH PARK AVENUE, INC.&quot;>
+      <data key=d3>1.0</data>
+      <data key=d4>Tech Innovations Pvt. Ltd is contracted by Tech Park Avenue, Inc. to perform software development services.</data>
+      <data key=d5>af02da68051b407a774989332a162982</data>
+    </edge>
+    <edge source=&quot;TECH INNOVATIONS PVT. LTD&quot; target=&quot;INDIA&quot;>
+      <data key=d3>1.0</data>
+      <data key=d4>Tech Innovations Pvt. Ltd is located in India.</data>
+      <data key=d5>af02da68051b407a774989332a162982</data>
+    </edge>
+    <edge source=&quot;TECH INNOVATIONS PVT. LTD&quot; target=&quot;SERVICES AGREEMENT&quot;>
+      <data key=d3>1.0</data>
+      <data key=d4>The Services Agreement involves Tech Innovations Pvt. Ltd as the Contractor.</data>
+      <data key=d5>af02da68051b407a774989332a162982</data>
+    </edge>
+    <edge source=&quot;TECH PARK AVENUE, INC.&quot; target=&quot;USA&quot;>
+      <data key=d3>1.0</data>
+      <data key=d4>Tech Park Avenue, Inc. is located in the USA.</data>
+      <data key=d5>af02da68051b407a774989332a162982</data>
+    </edge>
+    <edge source=&quot;TECH PARK AVENUE, INC.&quot; target=&quot;SERVICES AGREEMENT&quot;>
+      <data key=d3>1.0</data>
+      <data key=d4>The Services Agreement involves Tech Park Avenue, Inc. as the Company.</data>
+      <data key=d5>af02da68051b407a774989332a162982</data>
+    </edge>
+    <edge source=&quot;TECH PARK AVENUE, INC.&quot; target=&quot;TECH INNOVATIONS PVT. LTD.&quot;>
+      <data key=d3>1.0</data>
+      <data key=d4>Both organizations are parties to the Agreement mentioned in the document.</data>
+      <data key=d5>54075507af865d4dc5931205fab5765f</data>
+    </edge>
+    <edge source=&quot;CONTRACTOR&quot; target=&quot;COMPANY&quot;>
+      <data key=d3>22.0</data>
+      <data key=d4>Contractor performs services for the Company as described in the Statement of Work, and the Company has the authority to approve or disapprove sub-contractors.
+The Company requires prior written consent for the Contractor to subcontract services and can request changes in specifications for time or place of delivery.
+Company oversees and reviews the work performed by Contractor, including requesting changes and conducting acceptance testing.
+Company agrees to pay Contractor for the Services and has the right to terminate the Statement of Work if deliverables are not accepted.
+Company makes payments to the Contractor for services and deliverables, and owns the intellectual property developed by the Contractor.
+The Contractor assigns all rights, title, and interest in the Newly Developed IP to the Company, making the Company the owner of the IP.
+The Contractor designates the Company as its agent and attorney-in-fact to execute and file documents and perform other acts on its behalf.
+Company requires the Contractor to obtain ratifications, consents, and authorizations from its personnel and to seek prior written consent for the use of third-party and Contractor IP in Deliverables.
+Contractor provides services and deliverables to the Company, granting it a license to use, modify, distribute, and otherwise exploit Contractor's IP.
+Company and Contractor are engaged in a contractual agreement where the Contractor provides services and deliverables to the Company.
+Contractor and Company have entered into an agreement where the Contractor must comply with specific terms and conditions set by the Company.
+The Contractor and the Company have entered into an Agreement where the Contractor provides Front End services and the Company provides materials and API endpoints.
+The Contractor and the Company are parties to the Agreement, with the Contractor providing Front End services and the Company providing API endpoints for integration.
+The Contractor and the Company are parties to the agreement, with mutual obligations including payment of fees and maintaining confidentiality.
+Company and Contractor are engaged in a contractual agreement where the Contractor provides services to the Company, and both parties handle Confidential Information.
+Company and Contractor are engaged in a contractual agreement where the Contractor provides services to the Company, and the Company makes payments for those services.
+The Contractor performs services for the Company under the terms of the Agreement, with the Company providing general direction.
+Contractor performs services for the Company under its general direction but retains discretion over how the services are accomplished. Contractor is not considered an agent or employee of the Company.Company has engaged the Contractor for specific services and may assign the agreement to a corporate affiliate or successor without Contractor's consent. Any other assignments require Contractor's consent.
+Company and Contractor are the two parties involved in the Agreement, with specific roles and responsibilities regarding the assignment and continuation of the Agreement.
+Company and Contractor are the two main parties involved in the Agreement, each having access to the other's Confidential Information.
+Company and Contractor are parties to the agreement, each having rights and responsibilities, including access to Confidential Information and enforcement of the agreement.</data>
+      <data key=d5>074d8bc13c7cff5ee897c3eca3e30693,09038f7353e18c002372101e4a4141be,0eb3593149c31596ddef2c535e782a58,39e32d155411e5a89ff5707ee1b03c9c,3c8b240edf207b97a5df6c92e4afd43a,4c9b33d2d1fe99bd63cd8f99c679281d,520f82c4733c1da4b602815fc08dc110,5535b05bf384b9ecfba910725e6518e4,6134ff8fdc6cf9ea36d456819fb81850,8b2c4dc1f5b8fa2f52a6b505f77bb4ff,a05f1c3b26d22d47e76e16edefe118fc,bfe652d20977453f943d863e7fac1edc,c642e51ecac0ee0338a50b22719b5345,c80544c339c19ece8e5afc2200e98300,ce810a02fd6124b31ca2183c6b7bd4b6,cecfda346bdac8e9232a912d20fd8b94,d3be9092a42bc9d927636522ec06973f,e7a17066064b2a2003f09ecc3c269f9e,e95a03d09a97893949ed1a0052424641,ec920851838d4a61251a9f4a23de71a6,f74af18f0023e1c5abc424734f082003</data>
+    </edge>
+    <edge source=&quot;CONTRACTOR&quot; target=&quot;STATEMENT OF WORK&quot;>
+      <data key=d3>3.0</data>
+      <data key=d4>Contractor is responsible for performing the services and delivering the deliverables described in the Statement of Work.
+Contractor must provide services and deliverables as outlined in the Statement of Work.
+Contractor provides services as outlined in the Statement of Work, which can be terminated by the Company.</data>
+      <data key=d5>cecfda346bdac8e9232a912d20fd8b94,ec920851838d4a61251a9f4a23de71a6,f74af18f0023e1c5abc424734f082003</data>
+    </edge>
+    <edge source=&quot;CONTRACTOR&quot; target=&quot;SERVICES&quot;>
+      <data key=d3>1.0</data>
+      <data key=d4>Contractor agrees to perform the Services as described in the Statement of Work.</data>
+      <data key=d5>cecfda346bdac8e9232a912d20fd8b94</data>
+    </edge>
+    <edge source=&quot;CONTRACTOR&quot; target=&quot;SUB-CONTRACTORS&quot;>
+      <data key=d3>2.0</data>
+      <data key=d4>The Contractor may subcontract services to sub-contractors with prior written consent from the Company and is responsible for their acts and omissions.
+Sub-contractors are bound by internal agreements to ensure compliance with the Contractor's obligations to the Company.</data>
+      <data key=d5>c642e51ecac0ee0338a50b22719b5345,e7a17066064b2a2003f09ecc3c269f9e</data>
+    </edge>
+    <edge source=&quot;CONTRACTOR&quot; target=&quot;CONSULTANTS OR CONTRACTORS&quot;>
+      <data key=d3>1.0</data>
+      <data key=d4>The Contractor can engage individual consultants or contractors without prior consent from the Company, and they are considered personnel of the Contractor.</data>
+      <data key=d5>e7a17066064b2a2003f09ecc3c269f9e</data>
+    </edge>
+    <edge source=&quot;CONTRACTOR&quot; target=&quot;CONSULTANT&quot;>
+      <data key=d3>1.0</data>
+      <data key=d4>Contractor and Consultant are mentioned in similar contexts, indicating they may perform related or overlapping roles.</data>
+      <data key=d5>074d8bc13c7cff5ee897c3eca3e30693</data>
+    </edge>
+    <edge source=&quot;CONTRACTOR&quot; target=&quot;DELIVERABLES&quot;>
+      <data key=d3>1.0</data>
+      <data key=d4>Contractor is responsible for correcting defects in the Deliverables and resubmitting them for acceptance testing.</data>
+      <data key=d5>f74af18f0023e1c5abc424734f082003</data>
+    </edge>
+    <edge source=&quot;CONTRACTOR&quot; target=&quot;NEWLY DEVELOPED IP&quot;>
+      <data key=d3>3.0</data>
+      <data key=d4>Contractor is responsible for creating the Newly Developed IP during the term of the agreement.
+The Contractor is the creator of the Newly Developed IP and is responsible for assigning it to the Company.
+The Contractor is responsible for creating the Newly Developed IP and ensuring the Company can execute and file documents related to it.</data>
+      <data key=d5>5535b05bf384b9ecfba910725e6518e4,ce810a02fd6124b31ca2183c6b7bd4b6,d3be9092a42bc9d927636522ec06973f</data>
+    </edge>
+    <edge source=&quot;CONTRACTOR&quot; target=&quot;APPROVED THIRD PARTY IP&quot;>
+      <data key=d3>2.0</data>
+      <data key=d4>The Contractor must obtain the Company's prior written consent to incorporate any Approved Third Party IP into Deliverables.
+Contractor must obtain the Company's prior written consent to incorporate any third-party Intellectual Property into Deliverables, which then becomes Approved Third Party IP.</data>
+      <data key=d5>a05f1c3b26d22d47e76e16edefe118fc,ce810a02fd6124b31ca2183c6b7bd4b6</data>
+    </edge>
+    <edge source=&quot;CONTRACTOR&quot; target=&quot;CONTRACTOR IP&quot;>
+      <data key=d3>1.0</data>
+      <data key=d4>Contractor must obtain the Company's prior written consent to use its own Intellectual Property in Deliverables, referred to as Contractor IP.</data>
+      <data key=d5>a05f1c3b26d22d47e76e16edefe118fc</data>
+    </edge>
+    <edge source=&quot;CONTRACTOR&quot; target=&quot;BANKRUPTCY CODE&quot;>
+      <data key=d3>2.0</data>
+      <data key=d4>Contractor's IP license is defined as a license of rights to 'intellectual property' under the Bankruptcy Code.
+The Contractor's obligations and warranties are influenced by the definitions and provisions of the Bankruptcy Code.</data>
+      <data key=d5>0eb3593149c31596ddef2c535e782a58,8b2c4dc1f5b8fa2f52a6b505f77bb4ff</data>
+    </edge>
+    <edge source=&quot;CONTRACTOR&quot; target=&quot;CONTRACTOR'S EMPLOYEES&quot;>
+      <data key=d3>1.0</data>
+      <data key=d4>Contractor's employees are bound by internal agreements to ensure compliance with the Contractor's obligations to the Company.</data>
+      <data key=d5>c642e51ecac0ee0338a50b22719b5345</data>
+    </edge>
+    <edge source=&quot;CONTRACTOR&quot; target=&quot;CONTRACTOR'S AFFILIATES&quot;>
+      <data key=d3>1.0</data>
+      <data key=d4>Contractor's affiliates are protected under indemnification clauses in the agreement with the Company.</data>
+      <data key=d5>c642e51ecac0ee0338a50b22719b5345</data>
+    </edge>
+    <edge source=&quot;CONTRACTOR&quot; target=&quot;AGREEMENT&quot;>
+      <data key=d3>2.0</data>
+      <data key=d4>The Contractor is bound by the terms and conditions outlined in the Agreement.
+The Contractor is bound by the terms and conditions of the Agreement when performing services for the Company.</data>
+      <data key=d5>3c8b240edf207b97a5df6c92e4afd43a,4c9b33d2d1fe99bd63cd8f99c679281d</data>
+    </edge>
+    <edge source=&quot;CONTRACTOR&quot; target=&quot;FRONT END SERVICES&quot;>
+      <data key=d3>1.0</data>
+      <data key=d4>The Contractor is responsible for providing Front End services as specified in the Agreement.</data>
+      <data key=d5>3c8b240edf207b97a5df6c92e4afd43a</data>
+    </edge>
+    <edge source=&quot;CONTRACTOR&quot; target=&quot;SECTION 7&quot;>
+      <data key=d3>2.0</data>
+      <data key=d4>The Contractor's liability is influenced by Section 7 of the Agreement, which addresses gross negligence, willful misconduct, or intentional breaches.
+The Contractor is bound by the terms of Section 7, which deals with confidentiality.</data>
+      <data key=d5>6134ff8fdc6cf9ea36d456819fb81850,c80544c339c19ece8e5afc2200e98300</data>
+    </edge>
+    <edge source=&quot;CONTRACTOR&quot; target=&quot;CONFIDENTIAL INFORMATION&quot;>
+      <data key=d3>1.0</data>
+      <data key=d4>Contractor is responsible for protecting Confidential Information using at least a reasonable degree of care.</data>
+      <data key=d5>ec920851838d4a61251a9f4a23de71a6</data>
+    </edge>
+    <edge source=&quot;CONTRACTOR&quot; target=&quot;STATE OF CALIFORNIA&quot;>
+      <data key=d3>1.0</data>
+      <data key=d4>The Agreement, which involves the Contractor, is governed by the laws of the State of California, indicating the legal framework within which the Contractor operates.</data>
+      <data key=d5>09038f7353e18c002372101e4a4141be</data>
+    </edge>
+    <edge source=&quot;CONTRACTOR&quot; target=&quot;DEFEND TRADE SECRETS ACT OF 2016&quot;>
+      <data key=d3>1.0</data>
+      <data key=d4>Contractor acknowledges the provisions of the Defend Trade Secrets Act of 2016 and is responsible for providing notice to its employees and contractors.</data>
+      <data key=d5>39e32d155411e5a89ff5707ee1b03c9c</data>
+    </edge>
+    <edge source=&quot;COMPANY&quot; target=&quot;STATEMENT OF WORK&quot;>
+      <data key=d3>3.0</data>
+      <data key=d4>Company signs the Statement of Work, which sets forth the services to be performed by the Contractor.
+Company may terminate the Statement of Work if the Deliverables are not accepted after multiple attempts.
+Company can terminate a Statement of Work with prior written notice, affecting the services provided by the Contractor.</data>
+      <data key=d5>cecfda346bdac8e9232a912d20fd8b94,ec920851838d4a61251a9f4a23de71a6,f74af18f0023e1c5abc424734f082003</data>
+    </edge>
+    <edge source=&quot;COMPANY&quot; target=&quot;SERVICES&quot;>
+      <data key=d3>1.0</data>
+      <data key=d4>Company receives the Services performed by the Contractor as described in the Statement of Work.</data>
+      <data key=d5>cecfda346bdac8e9232a912d20fd8b94</data>
+    </edge>
+    <edge source=&quot;COMPANY&quot; target=&quot;CONSULTANT&quot;>
+      <data key=d3>1.0</data>
+      <data key=d4>Company may also work with Consultants in a similar capacity to Contractors, overseeing their work and ensuring compliance with policies.</data>
+      <data key=d5>074d8bc13c7cff5ee897c3eca3e30693</data>
+    </edge>
+    <edge source=&quot;COMPANY&quot; target=&quot;NEWLY DEVELOPED IP&quot;>
+      <data key=d3>3.0</data>
+      <data key=d4>Company owns the Newly Developed IP created by the Contractor during the term of the agreement.
+The Company becomes the owner of the Newly Developed IP after it is assigned by the Contractor.
+The Company has the authority to act on behalf of the Contractor regarding the Newly Developed IP.</data>
+      <data key=d5>5535b05bf384b9ecfba910725e6518e4,ce810a02fd6124b31ca2183c6b7bd4b6,d3be9092a42bc9d927636522ec06973f</data>
+    </edge>
+    <edge source=&quot;COMPANY&quot; target=&quot;APPROVED THIRD PARTY IP&quot;>
+      <data key=d3>1.0</data>
+      <data key=d4>The Company must provide prior written consent for the Contractor to use any Approved Third Party IP in Deliverables.</data>
+      <data key=d5>ce810a02fd6124b31ca2183c6b7bd4b6</data>
+    </edge>
+    <edge source=&quot;COMPANY&quot; target=&quot;BANKRUPTCY CODE&quot;>
+      <data key=d3>2.0</data>
+      <data key=d4>The Company&#8217;s rights to use Contractor's IP are protected under the Bankruptcy Code.
+The Company's license of rights to intellectual property is defined under the Bankruptcy Code, indicating a legal relationship.</data>
+      <data key=d5>0eb3593149c31596ddef2c535e782a58,8b2c4dc1f5b8fa2f52a6b505f77bb4ff</data>
+    </edge>
+    <edge source=&quot;COMPANY&quot; target=&quot;COMPANY'S AFFILIATES&quot;>
+      <data key=d3>1.0</data>
+      <data key=d4>Company's affiliates are protected under indemnification clauses in the agreement with the Contractor.</data>
+      <data key=d5>c642e51ecac0ee0338a50b22719b5345</data>
+    </edge>
+    <edge source=&quot;COMPANY&quot; target=&quot;AGREEMENT&quot;>
+      <data key=d3>2.0</data>
+      <data key=d4>The Company is bound by the terms and conditions outlined in the Agreement.
+The Company is a party to the Agreement, which outlines the terms and conditions for services provided by the Contractor.</data>
+      <data key=d5>3c8b240edf207b97a5df6c92e4afd43a,4c9b33d2d1fe99bd63cd8f99c679281d</data>
+    </edge>
+    <edge source=&quot;COMPANY&quot; target=&quot;API ENDPOINTS&quot;>
+      <data key=d3>1.0</data>
+      <data key=d4>The Company provides API endpoints for the Contractor to use in their Front End services.</data>
+      <data key=d5>3c8b240edf207b97a5df6c92e4afd43a</data>
+    </edge>
+    <edge source=&quot;COMPANY&quot; target=&quot;SECTION 7&quot;>
+      <data key=d3>2.0</data>
+      <data key=d4>The Company's liability is also influenced by Section 7 of the Agreement, which addresses gross negligence, willful misconduct, or intentional breaches.
+The Company is bound by the terms of Section 7, which deals with confidentiality.</data>
+      <data key=d5>6134ff8fdc6cf9ea36d456819fb81850,c80544c339c19ece8e5afc2200e98300</data>
+    </edge>
+    <edge source=&quot;COMPANY&quot; target=&quot;CONFIDENTIAL INFORMATION&quot;>
+      <data key=d3>1.0</data>
+      <data key=d4>Company is responsible for protecting Confidential Information using at least a reasonable degree of care.</data>
+      <data key=d5>ec920851838d4a61251a9f4a23de71a6</data>
+    </edge>
+    <edge source=&quot;COMPANY&quot; target=&quot;STATE OF CALIFORNIA&quot;>
+      <data key=d3>1.0</data>
+      <data key=d4>The Agreement is governed by the laws of the State of California, indicating the legal framework within which the Company operates.</data>
+      <data key=d5>09038f7353e18c002372101e4a4141be</data>
+    </edge>
+    <edge source=&quot;COMPANY&quot; target=&quot;LEGAL&quot;>
+      <data key=d3>2.0</data>
+      <data key=d4>Notices to the Company must be sent to the attention of Legal, indicating a direct communication channel.
+Legal is the designated recipient within the Company for notices related to the agreement.</data>
+      <data key=d5>39e32d155411e5a89ff5707ee1b03c9c,bfe652d20977453f943d863e7fac1edc</data>
+    </edge>
+    <edge source=&quot;STATEMENT OF WORK&quot; target=&quot;AGREEMENT&quot;>
+      <data key=d3>2.0</data>
+      <data key=d4>The Statement of Work is a part of the Agreement that details the specific services to be provided by the Contractor.
+The terms of the Agreement prevail over those in the Statement of Work unless the latter specifically identifies terms it is superseding.</data>
+      <data key=d5>4c9b33d2d1fe99bd63cd8f99c679281d,bfe652d20977453f943d863e7fac1edc</data>
+    </edge>
+    <edge source=&quot;FRONT END SERVICES&quot; target=&quot;BACK END CODE&quot;>
+      <data key=d3>1.0</data>
+      <data key=d4>The Front End services provided by the Contractor are separate from the Back End code, which the Contractor will not have access to.</data>
+      <data key=d5>3c8b240edf207b97a5df6c92e4afd43a</data>
+    </edge>
+  </graph>
+</graphml>"""

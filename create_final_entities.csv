@@ -1,0 +1,103 @@
+"id","name","type","description","human_readable_id","graph_embedding","text_unit_ids","description_embedding"
+"b45241d70f0e43fca764df95b2b81f77","TECH INNOVATIONS PVT. LTD","ORGANIZATION","""Tech Innovations Pvt. Ltd is a software development company based in India, acting as the Contractor in this agreement.""",0,"",['af02da68051b407a774989332a162982'],"[-0.00928459  0.00242126  0.04191928 ... -0.02530929  0.02885801
+  0.03193849]"
+"4119fd06010c494caa07f439b333f4c5","""TECH PARK AVENUE, INC.""","ORGANIZATION","""Tech Park Avenue, Inc. is a company based in the USA, acting as the Company in this agreement. Additionally, Tech Park Avenue, Inc. is involved in the Services mentioned in the document.""",1,"",['54075507af865d4dc5931205fab5765f' 'af02da68051b407a774989332a162982'],"[-0.02776685 -0.0178873  -0.01208602 ... -0.00151075  0.03634482
+  0.04655905]"
+"d3835bf3dda84ead99deadbeac5d0d7d","INDIA","GEO","India is the country where Tech Innovations Pvt. Ltd is located.",2,"",['af02da68051b407a774989332a162982'],"[-0.01057359 -0.00758643  0.05509647 ... -0.01851564  0.04077708
+  0.02279486]"
+"077d2820ae1845bcbb1803379a3d1eae","USA","GEO","""USA is the country where Tech Park Avenue, Inc. is located.""",3,"",['af02da68051b407a774989332a162982'],"[-0.03993031 -0.04135096  0.00381482 ... -0.02080232  0.01921678
+  0.00539085]"
+"3671ea0dd4e84c1a9b02c5ab2c8f4bac","SERVICES AGREEMENT","EVENT","""The Services Agreement is a formal contract made on 28 Nov 2023 between Tech Innovations Pvt. Ltd and Tech Park Avenue, Inc. for software development services.""",4,"",['af02da68051b407a774989332a162982'],"[-0.02892686 -0.03796207  0.03105557 ...  0.0004675   0.01443978
+  0.00935452]"
+"19a7f254a5d64566ab5cc15472df02de","CONTRACTOR","ORGANIZATION","""The Contractor is an individual or entity involved in an agreement with the Company, responsible for providing services and deliverables. As an independent contractor, the Contractor operates under the general direction of the Company but retains discretion over the manner and means of accomplishing the services. The Contractor is tasked with a variety of responsibilities, including managing and maintaining Confidential Information, delivering services, and ensuring compliance with security and safety policies.
+
+The Contractor retains its intellectual property rights even after the assignment of newly developed IP to the Company. They are responsible for obtaining necessary consents and authorizations, executing and filing documents, and ensuring compliance by their employees and sub-contractors. The Contractor must also seek the Company's prior written consent before incorporating third-party or its own IP into deliverables.
+
+In addition to these duties, the Contractor is responsible for correcting defects in deliverables, resubmitting them for acceptance testing, and invoicing the Company for accepted deliverables. They must also manage any sub-contractors and individual consultants or contractors involved in the project.
+
+The Contractor's role includes providing Front End services exclusively under the terms of the Agreement, without access to the Back End code or AI/ML code, and they must use Company-provided API endpoints for integration purposes. The Contractor's consent is required for certain assignments of the Agreement by the Company, and they are bound by various warranties and covenants to ensure the quality and confidentiality of their work.""",5,"","['074d8bc13c7cff5ee897c3eca3e30693' '09038f7353e18c002372101e4a4141be'
+ '0eb3593149c31596ddef2c535e782a58' '39e32d155411e5a89ff5707ee1b03c9c'
+ '3c8b240edf207b97a5df6c92e4afd43a' '4c9b33d2d1fe99bd63cd8f99c679281d'
+ '520f82c4733c1da4b602815fc08dc110' '5535b05bf384b9ecfba910725e6518e4'
+ '6134ff8fdc6cf9ea36d456819fb81850' '8b2c4dc1f5b8fa2f52a6b505f77bb4ff'
+ 'a05f1c3b26d22d47e76e16edefe118fc' 'bfe652d20977453f943d863e7fac1edc'
+ 'c642e51ecac0ee0338a50b22719b5345' 'c80544c339c19ece8e5afc2200e98300'
+ 'ce810a02fd6124b31ca2183c6b7bd4b6' 'cecfda346bdac8e9232a912d20fd8b94'
+ 'd3be9092a42bc9d927636522ec06973f' 'e7a17066064b2a2003f09ecc3c269f9e'
+ 'e95a03d09a97893949ed1a0052424641' 'ec920851838d4a61251a9f4a23de71a6'
+ 'f74af18f0023e1c5abc424734f082003']","[ 0.00415341  0.01623749  0.04536467 ... -0.0271837  -0.01240695
+  0.02196764]"
+"e7ffaee9d31d4d3c96e04f911d0a8f9e","COMPANY","ORGANIZATION","""Company is a corporate entity involved in an agreement with a Contractor, responsible for a variety of roles and obligations. As a party to the Agreement, Company has the ability to assign the Agreement to a corporate affiliate or successor. It is responsible for paying fees to the Contractor, holding and managing Confidential Information, and receiving notices. Company also has the authority to approve or disapprove sub-contractors and requires prior written consent for subcontracting services.
+
+Company acts as the agent and attorney-in-fact for the Contractor, with the authority to execute and file documents and perform other acts on behalf of the Contractor. It oversees security and safety policies, requests changes in specifications, and conducts acceptance testing for deliverables. Additionally, Company provides materials and API endpoints for integration purposes and is responsible for the backend implementation.
+
+The entity is granted a perpetual, irrevocable, worldwide, royalty-free, non-exclusive, sublicensable license to use the Contractor's intellectual property (IP) and receives the assignment of Newly Developed IP. Company requires ratifications, consents, and authorizations from the Contractor and its personnel, and it also requires prior written consent for the use of third-party and Contractor IP in deliverables.
+
+Company has the right to terminate the Statement of Work if deliverables are not accepted and is responsible for making payments to the Contractor under the agreement. It engages the Contractor to perform services, providing general direction but not controlling the manner and means of service execution. Upon termination of the agreement, Company receives the deliverables.
+
+In summary, Company is a multifaceted organization that plays a crucial role in managing agreements, overseeing project execution, and ensuring compliance with specific terms and conditions while maintaining confidentiality and intellectual property rights.""",6,"","['074d8bc13c7cff5ee897c3eca3e30693' '09038f7353e18c002372101e4a4141be'
+ '0eb3593149c31596ddef2c535e782a58' '39e32d155411e5a89ff5707ee1b03c9c'
+ '3c8b240edf207b97a5df6c92e4afd43a' '4c9b33d2d1fe99bd63cd8f99c679281d'
+ '520f82c4733c1da4b602815fc08dc110' '5535b05bf384b9ecfba910725e6518e4'
+ '6134ff8fdc6cf9ea36d456819fb81850' '8b2c4dc1f5b8fa2f52a6b505f77bb4ff'
+ 'a05f1c3b26d22d47e76e16edefe118fc' 'bfe652d20977453f943d863e7fac1edc'
+ 'c642e51ecac0ee0338a50b22719b5345' 'c80544c339c19ece8e5afc2200e98300'
+ 'ce810a02fd6124b31ca2183c6b7bd4b6' 'cecfda346bdac8e9232a912d20fd8b94'
+ 'd3be9092a42bc9d927636522ec06973f' 'e7a17066064b2a2003f09ecc3c269f9e'
+ 'e95a03d09a97893949ed1a0052424641' 'ec920851838d4a61251a9f4a23de71a6'
+ 'f74af18f0023e1c5abc424734f082003']","[ 0.00982122  0.00344931  0.04193127 ... -0.03640724  0.00675731
+  0.01138208]"
+"f7e11b0e297a44a896dc67928368f600","STATEMENT OF WORK","EVENT","""The Statement of Work is a document that outlines the specific services and deliverables to be provided by the Contractor to the Company. It specifies the details of these services, including the fees, and is signed by authorized representatives of both parties. The document references the overarching agreement and may contain terms that could potentially supersede those in the Agreement if specifically identified. Additionally, the Company has the right to terminate the Statement of Work with prior notice.""",7,"","['4c9b33d2d1fe99bd63cd8f99c679281d' 'bfe652d20977453f943d863e7fac1edc'
+ 'cecfda346bdac8e9232a912d20fd8b94' 'ec920851838d4a61251a9f4a23de71a6'
+ 'f74af18f0023e1c5abc424734f082003']","[-0.0086638  -0.00935278 -0.02125534 ...  0.03925565  0.02690824
+ -0.00254435]"
+"1fd3fa8bb5a2408790042ab9573779ee","SERVICES","EVENT","Services refer to any service described in any Statement of Work that the Contractor agrees to perform and complete according to the schedule set forth.",8,"",['cecfda346bdac8e9232a912d20fd8b94'],"[-0.02355109 -0.03056884  0.02048231 ...  0.00221832 -0.00235065
+  0.00557257]"
+"27f9fbe6ad8c4a8b9acee0d3596ed57c","SUB-CONTRACTORS","ORGANIZATION","""Sub-contractors are external organizations or individuals to which the Contractor subcontracts services. These sub-contractors require prior written consent from the Company before commencing work. Additionally, sub-contractors are bound by internal agreements to comply with the terms of the Contractor's agreement with the Company, ensuring alignment and adherence to the established contractual obligations.""",9,"",['c642e51ecac0ee0338a50b22719b5345' 'e7a17066064b2a2003f09ecc3c269f9e'],"[-0.00098559  0.02314303  0.0489083  ... -0.02331143 -0.00132465
+  0.02501949]"
+"e1fd0e904a53409aada44442f23a51cb","CONSULTANTS OR CONTRACTORS","PERSON","""Consultants or Contractors are individuals engaged by the Contractor for tax purposes, who do not require prior consent from the Company.""",10,"",['e7a17066064b2a2003f09ecc3c269f9e'],"[ 0.02769278  0.00919236  0.04242627 ... -0.00966805  0.00219042
+  0.04643748]"
+"de988724cfdf45cebfba3b13c43ceede","CONSULTANT","PERSON","""Consultant is an individual or entity mentioned as a potential role similar to Contractor, likely involved in providing specialized services.""",11,"",['074d8bc13c7cff5ee897c3eca3e30693'],"[-0.00706489 -0.00809262  0.01727116 ... -0.02573868 -0.00987016
+  0.02025742]"
+"96aad7cb4b7d40e9b7e13b94a67af206","DELIVERABLES","EVENT","Deliverables refer to the work products that Contractor must correct and resubmit for acceptance testing by Company.",12,"",['f74af18f0023e1c5abc424734f082003'],"[ 0.03221103  0.01971053  0.03513718 ... -0.00253843  0.03281967
+ -0.02215679]"
+"c9632a35146940c2a86167c7726d35e9","INTELLECTUAL PROPERTY","EVENT","""Intellectual Property refers to the creations of the mind, such as inventions, that are developed by the Contractor and owned by the Company under the agreement.""",13,"",['d3be9092a42bc9d927636522ec06973f'],"[ 0.03483769  0.02609075  0.01105159 ... -0.03301541  0.03979
+  0.02238188]"
+"9646481f66ce4fd2b08c2eddda42fc82","NEWLY DEVELOPED IP","EVENT","""Newly Developed IP refers to any intellectual property made, conceived, or reduced to practice by the Contractor during the term of the agreement that relates to the services, deliverables, or confidential information. This intellectual property is created by the Contractor or other creators, and the Company has the right to execute and file documents for it. Additionally, the intellectual property developed by the Contractor is assigned to the Company.""",14,"","['5535b05bf384b9ecfba910725e6518e4' 'ce810a02fd6124b31ca2183c6b7bd4b6'
+ 'd3be9092a42bc9d927636522ec06973f']","[ 0.00028759  0.02158539  0.02698174 ... -0.05127798 -0.0144536
+  0.00939927]"
+"d91a266f766b4737a06b0fda588ba40b","APPROVED THIRD PARTY IP","EVENT","""Approved Third Party IP refers to any third-party intellectual property that the Contractor is permitted to incorporate into Deliverables, provided they have obtained the Company's prior written consent.""",15,"",['a05f1c3b26d22d47e76e16edefe118fc' 'ce810a02fd6124b31ca2183c6b7bd4b6'],"[ 0.03253311  0.00574692  0.01582563 ... -0.01028428  0.0141096
+  0.02786169]"
+"bc0e3f075a4c4ebbb7c7b152b65a5625","CONTRACTOR IP","EVENT","Contractor IP refers to Intellectual Property owned by or licensed to the Contractor that is not assigned under the agreement and requires the Company's prior written consent for use in Deliverables.",16,"",['a05f1c3b26d22d47e76e16edefe118fc'],"[ 0.01778737  0.02406391  0.01401219 ... -0.03534314  0.01401219
+  0.01808846]"
+"254770028d7a4fa9877da4ba0ad5ad21","BANKRUPTCY CODE","GEO","""The Bankruptcy Code is a legal framework that defines rights to intellectual property for purposes of Section 365(n). It is referenced in relation to the license of rights to intellectual property, indicating its legal significance in such agreements.""",17,"",['0eb3593149c31596ddef2c535e782a58' '8b2c4dc1f5b8fa2f52a6b505f77bb4ff'],"[ 0.0168557   0.03816212 -0.00655626 ... -0.00013124 -0.01056192
+  0.01432221]"
+"4a67211867e5464ba45126315a122a8a","CONTRACTOR'S EMPLOYEES","PERSON","Contractor's employees are individuals bound by internal agreements to comply with the terms of the Contractor's agreement with the Company.",18,"",['c642e51ecac0ee0338a50b22719b5345'],"[ 0.02476095  0.02157023  0.02817873 ... -0.02514336 -0.00132573
+  0.01971794]"
+"04dbbb2283b845baaeac0eaf0c34c9da","CONTRACTOR'S AFFILIATES","ORGANIZATION","""Contractor's affiliates are organizations associated with the Contractor, protected under indemnification clauses in the agreement with the Company.""",19,"",['c642e51ecac0ee0338a50b22719b5345'],"[-0.02723605  0.03966296  0.01924206 ... -0.03924546  0.01851757
+  0.02753076]"
+"1943f245ee4243bdbfbd2fd619ae824a","COMPANY'S AFFILIATES","ORGANIZATION","""Company's affiliates are organizations associated with the Company, protected under indemnification clauses in the agreement with the Contractor.""",20,"",['c642e51ecac0ee0338a50b22719b5345'],"[-0.02747573  0.03548047  0.03721122 ... -0.0361295   0.02627382
+  0.02716323]"
+"273daeec8cad41e6b3e450447db58ee7","AGREEMENT","EVENT","""The Agreement is a binding and enforceable contract between the Company and the Contractor, outlining their respective responsibilities and warranties. It serves as the primary document detailing the terms and conditions under which services are rendered and can be terminated. This formal contract ensures that both parties are aware of their obligations and the conditions governing their professional relationship.""",21,"","['3c8b240edf207b97a5df6c92e4afd43a' '4c9b33d2d1fe99bd63cd8f99c679281d'
+ 'bfe652d20977453f943d863e7fac1edc']","[ 0.0045103   0.03774737  0.02806673 ...  0.02235824 -0.00972227
+  0.03203888]"
+"e69dc259edb944ea9ea41264b9fcfe59","FRONT END SERVICES","EVENT","""Front End services refer to the specific responsibilities of the Contractor, which are confined to the user interface and client-side development.""",22,"",['3c8b240edf207b97a5df6c92e4afd43a'],"[-0.03752091 -0.0066622   0.06876015 ...  0.01128285 -0.01073924
+  0.02947554]"
+"e2f5735c7d714423a2c4f61ca2644626","BACK END CODE","EVENT","""Back End code refers to the server-side code that the Contractor will not have access to, as per the Agreement.""",23,"",['3c8b240edf207b97a5df6c92e4afd43a'],"[ 0.00924136  0.02077438  0.0274999  ... -0.00856258  0.00468918
+  0.0317594 ]"
+"deece7e64b2a4628850d4bb6e394a9c3","API ENDPOINTS","EVENT","API endpoints are specific integration points provided by the Company for the Contractor to use in their Front End services.",24,"",['3c8b240edf207b97a5df6c92e4afd43a'],"[-0.00772127 -0.00493025  0.08677236 ... -0.02876813 -0.01677956
+  0.02094659]"
+"e657b5121ff8456b9a610cfaead8e0cb","SECTION 7","EVENT","""Section 7 is a specific part of the Agreement that addresses confidentiality and the handling of confidential information. Additionally, it stipulates that any breach of this section can lead to liability for gross negligence, willful misconduct, or intentional breaches.""",25,"",['6134ff8fdc6cf9ea36d456819fb81850' 'c80544c339c19ece8e5afc2200e98300'],"[-0.01578208  0.01636937  0.0608291  ... -0.0117772  -0.01360782
+  0.03063947]"
+"bf4e255cdac94ccc83a56435a5e4b075","CONFIDENTIAL INFORMATION","EVENT","Confidential Information refers to sensitive proprietary information that must be protected by both parties using a reasonable degree of care.",26,"",['ec920851838d4a61251a9f4a23de71a6'],"[ 3.61483060e-02 -1.79370381e-02  2.07915083e-02 ... -3.69709916e-02
+ -5.02960011e-03 -1.61289408e-05]"
+"3b040bcc19f14e04880ae52881a89c1c","STATE OF CALIFORNIA","GEO","""State of California is the jurisdiction whose laws govern the Agreement, excluding its choice of law rules.""",27,"",['09038f7353e18c002372101e4a4141be'],"[-0.00875409  0.01781659  0.04849149 ...  0.00360602  0.03069862
+  0.0089676 ]"
+"3d6b216c14354332b1bf1927ba168986","LEGAL","PERSON","Legal is the department or individual within the Company to whom notices must be sent.",28,"",['39e32d155411e5a89ff5707ee1b03c9c' 'bfe652d20977453f943d863e7fac1edc'],"[ 0.02880404  0.01697882  0.023778   ... -0.00675453  0.01687677
+  0.04357599]"
+"1c109cfdc370463eb6d537e5b7b382fb","DEFEND TRADE SECRETS ACT OF 2016","EVENT","""Defend Trade Secrets Act of 2016 is a legal framework mentioned in the agreement, providing protections and guidelines for the disclosure of trade secrets.""",29,"",['39e32d155411e5a89ff5707ee1b03c9c'],"[-0.00658665 -0.00432936  0.0428306  ...  0.02565205 -0.01094495
+ -0.00659823]"
+"3d0dcbc8971b415ea18065edc4d8c8ef","TECH INNOVATIONS PVT. LTD.","ORGANIZATION","Tech Innovations Pvt. Ltd. is a company involved in the Services mentioned in the document.",30,"",['54075507af865d4dc5931205fab5765f'],"[ 0.00139866  0.0151217   0.04316145 ... -0.01407053  0.01372858
+  0.04620099]"
+"68105770b523412388424d984e711917","""PARK AVENUE, INC.""","ORGANIZATION","""Park Avenue, Inc. is a company, likely involved in business activities, given its designation as 'Inc.'""",31,"",['9d973bac3fd7131fba04793ac332348e'],"[-0.00716165 -0.04276891 -0.01826254 ... -0.00234144  0.01393473
+  0.03987477]"
